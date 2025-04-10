@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariokart 8 Geoguesser</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <!-- TO DO -->
+    <!-- Create Image Randomizer
+         Add user input
+         Check for answer and create score
+         Upon wrong answer, give strike and make image bigger.
+    -->
+    <div id="container">  
+        <h1> MK8 Geoguesser </h1>
+        <img id="trackImage" src="" alt="Track Image" draggable="false">
+        <div id="guessingBox">
+            <label>Track Selection:</label>
+            <select id="mapSelect" onchange="changeImage()">
+                <option value="01_Mario_Kart_Stadium.jpeg">Mario Kart Stadium</option>
+                <option value="02_Water_Park.jpeg">Water Park</option>
+                <option value="03_Sweet_Sweet_Canyon.jpeg">Sweet Sweet Canyon</option>
+                <option value="04_Thwomp_Ruins.jpeg">Thwomp Ruins</option>
+                <option value="05_Mario_Circuit.jpeg">Mario Circuit</option>
+                <option value="06_Toad_Harbor.jpeg">Toad Harbor</option>
+                <option value="07_Twisted_Mansion.jpeg">Twisted Mansion</option>
+                <option value="08_Shy_Guy_Falls.jpeg">Shy Guy Falls</option>
+            </select>
+            <div id="mapImageContainer">
+                <!--<div id="options">
+                    <label>Hard Mode</labbel>
+                    <input type="radio">
+                </div>-->
+
+                <img id="mapImage" src="" alt="Map Image">
+                <div id="scoreContainer">
+                    <p>Score</p>
+                    <p id="score">0</p>
+                </div>
+            </div>
+            <input id="guessButton" type="submit" value="Guess!" onclick="guess()">
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>

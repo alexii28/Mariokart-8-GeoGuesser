@@ -1,0 +1,141 @@
+#ALL COORDINATE MUST BE STRUCTURED:
+# trackName
+#   x: (pinLeft + pinWidth/2)
+#   y: (pinTop + pinHeight/2)
+01_Mario_Kart_Stadium:
+  Drift:
+    x: 173
+    y: 160.7
+  Glider: 
+    x: 37
+    y: 113.8
+  Grass:
+    x: 133
+    y: 107.9
+  Start: 
+    x: 101
+    y: 143.5
+02_Water_Park:
+  Loop:
+    x: 172
+    y: 41.9
+  Shortcut:
+    x: 177
+    y: 158.9
+  Start:
+    x: 62
+    y: 93.9
+  Water:
+    x: 131
+    y: 54.9
+03_Sweet_Sweet_Canyon:
+  Start:
+    x: 110
+    y: 164.9
+  Donut:
+    x: 19
+    y: 156.9
+  Road:
+    x: 111
+    y: 96.9
+  Start:
+    x: 108
+    y: 162.9
+04_Thwomp_Ruins:
+  Glider:
+    x: 179
+    y: 138.9
+  Middle:
+    x: 26
+    y: 69.9
+  Ramp:
+    x: 172
+    y: 97.9
+  Start:
+    x: 124
+    y: 31.9
+  Water:
+    x: 49
+    y: 106.9
+05_Mario_Circuit:
+  Bridge:
+    x: 76
+    y: 150.9
+  End:
+    x: 110
+    y: 85.9
+  Ramp:
+    x: 144
+    y: 65.9
+  Turn:
+    x: 179
+    y: 18.9
+  Uphill:
+    x: 24
+    y: 152.9
+06_Toad_Harbour:
+  Around:
+    x: 138
+    y: 159.9
+  Highway:
+    x: 161
+    y: 68.9
+  Market:
+    x: 31
+    y: 88.9
+  Roof:
+    x: 45
+    y: 92.9
+  Shortcut:
+    x: 96
+    y: 100.9
+  Start:
+    x: 79
+    y: 173.9
+  Turn:
+    x: 25
+    y: 182.9
+  Uphill:
+    x: 87
+    y: 60.9
+07_Twisted_Mansion:
+  Fountain:
+    x: 39
+    y: 164.9
+  Knight:
+    x: 73
+    y: 143.9
+  Monster:
+    x: 189
+    y: 7.9
+  Shortcut:
+    x: 178
+    y: 17.9
+  Stairs:
+    x: 62
+    y: 189.9
+  Wall:
+    x: 161
+    y: 57.9
+  Water:
+    x: 40
+    y: 94.9
+08_Shy_Guy_Falls:
+  Air:
+    x: 114
+    y: 146.9
+  Arrow:
+    x: 92
+    y: 101.9
+  Boost:
+    x: 123
+    y: 102.9
+  Bridge:
+    x: 172
+    y: 18.9
+  Ramp:
+    x: 38
+    y: 184.9
+  Waterfall:
+    x: 186
+    y: 71.9
