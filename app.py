@@ -1,10 +1,14 @@
 from flask import Flask, jsonify, render_template, send_from_directory
 import os, random, yaml
 
+
 app = Flask(__name__,
             template_folder='../frontend',
             static_folder='../frontend/static')
 IMAGE_FOLDER = '../frontend/static/images'
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
 
 @app.route('/')
